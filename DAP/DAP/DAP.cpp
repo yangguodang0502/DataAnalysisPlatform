@@ -3,25 +3,27 @@
 
 #include "stdafx.h"
 #include "QuickSort.h"
+#include "InsertSort.h"
 
 using namespace std;
 
-void print(int a[], int n){  
-    for(int j= 0; j<n; j++){  
-        cout<<a[j] <<"  ";  
-    }  
-    cout<<endl;  
-}
-
 int _tmain(int argc, _TCHAR* argv[])
 {
+    // 快速排序
     int a[10] = {3,1,5,7,2,4,9,6,10,8};  
     cout<<"初始值：";  
-    print(a,10);  
+    CCommon::Print(a,10);  
     CQuickSort quickSort;
     quickSort.Sort(a,0,9);
     cout<<"结果：";  
-    print(a,10); 
+    CCommon::Print(a,10); 
+
+    // 直接插入排序
+    int a2[810] = {3,1,5,7,2,4,9,6,10,8};  
+    CInsertSort insertSort;
+    insertSort.Sort(a2, 10);
+    CCommon::Print(a2,10,10); 
+
     system("pause");
 
 	return 0;

@@ -18,14 +18,6 @@ void CQuickSort::Swap(int *a, int *b)
     int tmp = *a;  
     *a = *b;  
     *b = tmp;  
-}  
-
-void CQuickSort::print(int a[], int n)
-{  
-    for(int j= 0; j<n; j++){  
-        cout<<a[j] <<"  ";  
-    }  
-    cout<<endl;  
 }
 
 int CQuickSort::Partition(int a[], int low, int high)  
@@ -37,7 +29,7 @@ int CQuickSort::Partition(int a[], int low, int high)
         while(low < high  && a[low] <= privotKey ) ++low;  
         Swap(&a[low], &a[high]);  
     }  
-    print(a,10);  
+    CCommon::Print(a,10);  
     return low;  
 }  
   
