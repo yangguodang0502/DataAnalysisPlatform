@@ -6,6 +6,7 @@
 #include "InsertSort.h"
 #include "ShellSort.h"
 #include "SelectSort.h"
+#include "HeapSort.h"
 
 using namespace std;
 
@@ -41,6 +42,13 @@ int _tmain(int argc, _TCHAR* argv[])
     CSelectSort selectlSort;
     selectlSort.Sort(a4, 10);
     CCommon::Print(a4,10,10);
+
+    // ∂—≈≈–Ú
+    cout << "∂—≈≈–Ú£∫" << endl; 
+    int a5[10] = {3,1,5,7,2,4,9,6,10,8};  
+    CHeapSort heapSort;
+    heapSort.Sort(a5, 10);
+    CCommon::Print(a5,10);
 
     system("pause");
 

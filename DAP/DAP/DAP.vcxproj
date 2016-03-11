@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectSort.h" />
@@ -89,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DAP.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="SelectSort.cpp" />
     <ClCompile Include="ShellSort.cpp" />
