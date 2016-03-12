@@ -7,6 +7,7 @@
 #include "ShellSort.h"
 #include "SelectSort.h"
 #include "HeapSort.h"
+#include "BubbleSort.h"
 
 using namespace std;
 
@@ -49,6 +50,13 @@ int _tmain(int argc, _TCHAR* argv[])
     CHeapSort heapSort;
     heapSort.Sort(a5, 10);
     CCommon::Print(a5,10);
+
+    // √∞≈›≈≈–Ú
+    cout << "√∞≈›≈≈–Ú£∫" << endl; 
+    int a6[10] = {3,1,5,7,2,4,9,6,10,8};  
+    CBubbleSort bubbleSort;
+    bubbleSort.Sort(a6, 10);
+    CCommon::Print(a6,10);
 
     system("pause");
 
