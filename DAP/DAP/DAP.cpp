@@ -8,6 +8,7 @@
 #include "SelectSort.h"
 #include "HeapSort.h"
 #include "BubbleSort.h"
+#include "MergeSort.h"
 
 using namespace std;
 
@@ -57,6 +58,15 @@ int _tmain(int argc, _TCHAR* argv[])
     CBubbleSort bubbleSort;
     bubbleSort.Sort(a6, 10);
     CCommon::Print(a6,10);
+
+    // πÈ≤¢≈≈–Ú
+    cout << "πÈ≤¢≈≈–Ú£∫" << endl; 
+    int a7[10] = {3,1,5,7,2,4,9,6,10,8};  
+    int b[10];
+    CMergeSort mergeSort;
+    mergeSort.Sort(a7, b, 10);
+    CCommon::Print(b, 10);
+    CCommon::Print(a7, 10);
 
     system("pause");
 
