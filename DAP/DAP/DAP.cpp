@@ -9,6 +9,7 @@
 #include "HeapSort.h"
 #include "BubbleSort.h"
 #include "MergeSort.h"
+#include "MakeAndDelete.h"
 
 using namespace std;
 
@@ -67,6 +68,14 @@ int _tmain(int argc, _TCHAR* argv[])
     mergeSort.Sort(a7, b, 10);
     CCommon::Print(b, 10);
     CCommon::Print(a7, 10);
+
+    // ดี14
+    cout << "ดี14ฃบ" << endl; 
+    int a8[6] = {9,1,9,7,5,13};
+    CMakeAndDelete makeAndDelete;
+    int nOutCount;
+    int* outArray = makeAndDelete.Run(a8, 6, nOutCount, 14);
+    CCommon::Print(outArray, nOutCount);
 
     system("pause");
 
