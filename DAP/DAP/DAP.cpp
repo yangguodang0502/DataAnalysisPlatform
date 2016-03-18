@@ -10,6 +10,7 @@
 #include "BubbleSort.h"
 #include "MergeSort.h"
 #include "MakeAndDelete.h"
+#include "Fibonacci.h"
 
 using namespace std;
 
@@ -76,6 +77,12 @@ int _tmain(int argc, _TCHAR* argv[])
     int nOutCount;
     int* outArray = makeAndDelete.Run(a8, 6, nOutCount, 14);
     CCommon::Print(outArray, nOutCount);
+
+    // 斐波那契数
+    cout << "斐波那契数" << endl;
+    CFibonacci fibonacci;
+    int nFib = fibonacci.Run(1, 2, 5);
+    cout << nFib << endl;
 
     system("pause");
 

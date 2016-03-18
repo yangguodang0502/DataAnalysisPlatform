@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="Fibonacci.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="MakeAndDelete.h" />
@@ -94,6 +95,7 @@
   <ItemGroup>
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="DAP.cpp" />
+    <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="MakeAndDelete.cpp" />

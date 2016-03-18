@@ -51,6 +51,9 @@
     <ClInclude Include="MakeAndDelete.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Fibonacci.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -81,6 +84,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MakeAndDelete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
