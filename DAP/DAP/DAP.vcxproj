@@ -86,6 +86,7 @@
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="MakeAndDelete.h" />
     <ClInclude Include="MergeSort.h" />
+    <ClInclude Include="PatternMatching.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectSort.h" />
     <ClInclude Include="ShellSort.h" />
@@ -100,6 +101,7 @@
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="MakeAndDelete.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="PatternMatching.cpp" />
     <ClCompile Include="SelectSort.cpp" />
     <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="stdafx.cpp">

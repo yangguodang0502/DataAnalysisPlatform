@@ -11,6 +11,7 @@
 #include "MergeSort.h"
 #include "MakeAndDelete.h"
 #include "Fibonacci.h"
+#include "PatternMatching.h"
 
 using namespace std;
 
@@ -83,6 +84,12 @@ int _tmain(int argc, _TCHAR* argv[])
     CFibonacci fibonacci;
     int nFib = fibonacci.Run(1, 2, 5);
     cout << nFib << endl;
+
+    // 模式匹配
+    cout << "模式匹配" << endl;
+    CPatternMatching patternMatching;
+    int nIndex = patternMatching.Index("goodgoole", "goole", 0);
+    cout << nIndex << endl;
 
     system("pause");
 
